@@ -1,0 +1,29 @@
+package com.drop_down;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OsmaniaUniversity_selectLanguage
+{
+	public static void main(String[] args)
+	{
+		WebDriver driver;
+		
+		String applicationUrlAddress="https://www.osmania.ac.in/";
+		
+		System.setProperty("webdriver.chrome.driver", "./driverfiles/chromedriver1.exe");
+		
+		driver =new ChromeDriver();
+		
+		driver.get(applicationUrlAddress);
+		
+		//Maximize the browser
+		driver.manage().window().maximize();
+		
+		
+		
+		
+		
+	}
+
+}

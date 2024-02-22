@@ -1,0 +1,27 @@
+package com.OHRM;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Login_TestCase1
+{
+	
+	public static void main(String[] args)
+	{
+		//System.setProperty( "webdriver.chrome.driver", "./driverfiles/chromedriver1.exe");
+		//ChromeDriver driver= new ChromeDriver();
+		
+		//System.out.println("set up functionality is successful");
+		
+	
+	}
+	static public void setup() {
+		System.setProperty( "webdriver.chrome.driver", "./driverfiles/chromedriver1.exe");	
+		ChromeDriver driver= new ChromeDriver();
+
+	System.out.println("set up functionality is successful");
+	}
+	
+		
+	
+}

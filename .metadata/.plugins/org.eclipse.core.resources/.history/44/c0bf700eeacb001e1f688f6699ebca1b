@@ -1,0 +1,40 @@
+package com.ExcelOperations;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Excel_Write_TestData 
+{
+	public static void main(String[] args) throws IOException 
+	{
+		//Identify the file in the System
+		FileInputStream testDataFile = new FileInputStream("./ExcelDataFiles/Book1.xlsx");
+		
+		//	Identify the WorkBook in the File
+		XSSFWorkbook WorkBook=new XSSFWorkbook(testDataFile);
+		
+		//Identify the sheet in the WorkBook
+		XSSFSheet testDataSheet=WorkBook.getSheet("Test1");
+		
+		//Create a Particular Row in the Sheet
+		Row newRow=testDataSheet.createRow(5);
+		
+		//Create a Particular Row of a cell in the row
+		Cell newRowofNewCell=newRow.createCell(6);
+		
+		//Sending the Test data in to the New of Cell Created
+		newRowofNewCell.setCellValue("Selenium");
+		
+		//The Excel File along with the WorkBook Should be Saved
+		FileOutputStream testDataResultFile=new FileOutputStream("./ExcelDataFiles/Book1.xlsx");
+		
+	}
+
+}

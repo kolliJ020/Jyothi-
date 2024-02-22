@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Testing"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="com.LinksTesting.TSRTC_HeaderBlock_DisplayLinksNames"/>
+        <listEntry value="com.loops.PublicclassDoWhileexample"/>
+        <listEntry value="com.ValidatingURLAddress.ValidatingURLAddress_GoogleHomePage"/>
+        <listEntry value="com.Arrays.ObjectArrayExample"/>
+        <listEntry value="com.Arrays.ArrayListExample"/>
+        <listEntry value="com.decesionmakingstatement.PublicclassNestedCondition"/>
+        <listEntry value="com.BrowserAutomation.PublicclassTestingBrowser"/>
+        <listEntry value="com.LinksTesting.TSRTC_HeaderBlock_LinksCount"/>
+        <listEntry value="com.BrowserAutomation.Browserautomationtesting"/>
+        <listEntry value="com.decesionmakingstatement.PublicclassSwitchcaseexample"/>
+        <listEntry value="com.Arrays.SingleDimensionalArrayExample"/>
+        <listEntry value="com_TestNG.Annotation_1"/>
+        <listEntry value="com.BrowserAutomation.Get_tittle"/>
+        <listEntry value="com.OHRM.Orange_HRM_LoginTest"/>
+        <listEntry value="com.drop_down.DropDown_GetOptionalValues"/>
+        <listEntry value="com.Arrays.MultipleDimensionalArrayExample"/>
+        <listEntry value="com.stringcomparision.PublicclassStringexample2"/>
+        <listEntry value="com.loops.PublicclassWhileexample"/>
+        <listEntry value="com.LinksTesting.TSRTC_LinksCount_HomePage"/>
+        <listEntry value="com.Orange_HRM_Application.BaseTest"/>
+        <listEntry value="com.variableexample2.Publicclassvariable"/>
+        <listEntry value="com.validatingTittle.Validatingtittle_flipkartpage"/>
+        <listEntry value="com.geturl.PublicclassGetURL_GoogleHomePage"/>
+        <listEntry value="com.LinksTesting.TSRTC_HomePage_DisplayLinkNames"/>
+        <listEntry value="com.Orange_HRM_Application.Add_Employee_Test"/>
+        <listEntry value="com.OHRM.LoginTestCase"/>
+        <listEntry value="com.LinksTesting.TSRTC_HomePage_Headerblock_LinksTesting_CapturingScreenshots"/>
+        <listEntry value="com.loops.Publicclassforloopexample1"/>
+        <listEntry value="com.Myjavaprogram.Publicclassmyfirstjavaprogram"/>
+        <listEntry value="com.decesionmakingstatement.Publicclassifexample"/>
+        <listEntry value="com.ExcelOperations.Excel_Read_SingleTestData"/>
+        <listEntry value="com.loops.PublicclassNestedLoopexample"/>
+        <listEntry value="com.ExcelOperations.Excel_Write_TestData"/>
+        <listEntry value="com.variableexample.Publicclassvariable"/>
+        <listEntry value="com.Utility.Log"/>
+        <listEntry value="com.LinksTesting.TSRTC_HeaderBlock_LinksTesting"/>
+        <listEntry value="com_TestNG.Annotation_2java"/>
+        <listEntry value="com.decesionmakingstatement.Publicclassifelseexample"/>
+        <listEntry value="com.OHRM.LoginTestCase_2"/>
+        <listEntry value="com.drop_down.OsmaniaUniversity_selectLanguage"/>
+        <listEntry value="com.decesionmakingstatement.Publicclassifelseifexample"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

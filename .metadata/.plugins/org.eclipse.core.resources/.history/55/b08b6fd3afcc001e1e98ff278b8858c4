@@ -1,0 +1,50 @@
+package com.OHRM;
+
+public class LoginTestCase {
+	
+	/*
+	 * Login oraange hrm  one time, take username and password from Excel then logout
+	 */
+	
+	public static void main(String[] args) {
+		LoginTestCase obj = new LoginTestCase();
+		obj.setup();
+		obj.openUrl();
+		obj.workbookCreation();
+	}
+	
+	public void setup() {
+		System.out.println("setup successfully");
+		
+	}
+	
+	public void openUrl() {
+		
+		System.out.println("open url successfully");
+		
+	}
+	
+	public void login() {
+		
+	}
+	
+	public void tearDown() {
+		
+	}
+	
+	public void workbookCreation() {
+		//fileinpustream
+		//xssfworkbook
+		System.out.println("workbook created");
+		
+		
+	}
+	public void rowcreate() {
+		
+	}
+	
+	public void getCellValue() {
+		
+	}
+
+}
